@@ -19,4 +19,11 @@ let button = document.querySelector('.buttonremove');
 button.addEventListener("click", rmvButton);
 
 }
+loginlogout
+function changetext(){
+    login.innerText = "Logout"
+}
+let login = document.querySelector('.login');
+login.addEventListener("click", changetext)
+
 */
