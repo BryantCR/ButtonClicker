@@ -9,3 +9,14 @@ function loginLogout(login){
 function hide(buttonremove){
     buttonremove.remove();
 }
+/* remove a element
+function rmvButton(element){
+    button.remove();
+}
+
+let button = document.querySelector('.buttonremove');
+
+button.addEventListener("click", rmvButton);
+
+}
+*/
