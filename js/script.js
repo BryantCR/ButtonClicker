@@ -26,4 +26,26 @@ function changetext(){
 let login = document.querySelector('.login');
 login.addEventListener("click", changetext)
 
+
+function rmvButton(element){
+    button.remove();
+}
+
+let button = document.querySelector('.addDefinition');
+
+button.addEventListener("click", rmvButton);
+
+
+Alert
+function ninjaLiked (){
+    alert("Ninja was liked!");
+}
+
+let likeButton = document.querySelectorAll('.likes');
+
+for( let i = 0; i < likeButton.length; i++){
+    likeButton[i].addEventListener("click", ninjaLiked);
+}
+
+
 */
