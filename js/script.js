@@ -26,7 +26,20 @@ function changetext(){
 let login = document.querySelector('.login');
 login.addEventListener("click", changetext)
 
+function changetext(){
+    if(login.innerHTML === "Login"){
+        login.innerHTML = "Logout";
+    }
+    else{
+        login.innerHTML = "Login";
+    }
+}
 
+let login = document.querySelector('.login');
+login.addEventListener("click", changetext)
+
+
+remove
 function rmvButton(element){
     button.remove();
 }
